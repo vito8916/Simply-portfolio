@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simply Portfolio by Victor Alvarado</title>
+    <meta name="description"
+          content="A simple version of a personal portfolio inspired by the profile view of Instagram or TikTok. This simple design allows us to display our projects and skills in a simple and effective way.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Simply portfolio by Victor Alvarado">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://simply-portfolio.vicbox.tech">
+    <meta property="og:image" content="https://vicbox.tech/simply-portfolio-portada2.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://simply-portfolio.vicbox.tech/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Simply portfolio by Victor Alvarado">
+    <meta property="og:description" content="A simple version of a personal portfolio inspired by the profile view of Instagram or TikTok. This simple design allows us to display our projects and skills in a simple and effective way.">
+    <meta property="og:image" content="https://vicbox.tech/simply-portfolio-portada2.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="simply-portfolio.vicbox.tech">
+    <meta property="twitter:url" content="http://simply-portfolio.vicbox.tech/">
+    <meta name="twitter:title" content="Simply portfolio by Victor Alvarado">
+    <meta name="twitter:description" content="A simple version of a personal portfolio inspired by the profile view of Instagram or TikTok. This simple design allows us to display our projects and skills in a simple and effective way.">
+    <meta name="twitter:image" content="https://vicbox.tech/simply-portfolio-portada2.png">
+
+
+
+    <link rel="apple-touch-icon" href="/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="img/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<header class="navigation">
+    <button type="button" class="rounded-button" id="btn-change-theme" aria-label="change theme">
+        <i class="ri-contrast-2-line"></i>
+    </button>
+</header>
+
+<main class="main">
+    <div class="container">
+        <section class="profile">
+
+            <div class="profile__container grid">
+                <div class="profile__picture">
+                    <div class="profile__picture-bg">
+                        <img
+                            class="lazy"
+                            src="img/placeholder-vic-art-yellow.png"
+                            data-src="img/vic-art-yellow-tbg.png"
+                            data-srcset="img/vic-art-yellow-tbg.png 1x"
+                            alt="profile image of victor alvarado"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="profile__personal-data">
+                    <h2 class="profile__name">Víctor Alvarado</h2>
+                    <h3 class="profile__description">Software Engineer and FullStack Developer</h3>
+                    <ul class="profile__social">
+                        <li>
+                            <a href="https://github.com/vito8916" target="_blank" class="profile__social-link"
+                               aria-label="Github">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/vicbox_" target="_blank" class="profile__social-link"
+                               aria-label="Twitter">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/victor-alvaradohn/" target="_blank"
+                               class="profile__social-link"
+                               aria-label="Linkedin">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="profile__facts">
+                <div class="profile__facts-fact">
+                    <h3 class="profile__fact-amount">+5</h3>
+                    <p class="profile__fact-description">
+                        Years of work <br> experience
+                    </p>
+                </div>
+                <div class="profile__facts-fact">
+                    <h3 class="profile__fact-amount">+50</h3>
+                    <p class="profile__fact-description">
+                        Completed <br> projects
+                    </p>
+                </div>
+                <div class="profile__facts-fact">
+                    <h3 class="profile__fact-amount">4</h3>
+                    <p class="profile__fact-description">Personal side <br> projects</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <!-- Insert your CV -->
+                <a download="victor-alvarado-cv" href="victor-alvarado-cv.pdf" class="button" aria-label="Download CV">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <a href="mailto: example@example.com" class="button button__white" aria-label="Contact me">
+                    Contact Me <i class="ri-mail-fill"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="tabs">
+            <!--=============== TABS BUTTONS ===============-->
+            <ul class="tabs__buttons">
+                <li>
+                    <button class="tab__button tab-active" data-target="#projects" aria-label="projects button">
+                        Projects
+                    </button>
+                </li>
+                <li>
+                    <button class="tab__button" data-target="#skills" aria-label="skills button">
+                        Skills
+                    </button>
+                </li>
+            </ul>
+
+            <!--=============== TABS CONTENTS ===============-->
+            <div class="tabs_content">
+                <!--projects content-->
+                <div class="tab_content projects grid active" data-content id="projects">
+                    <article class="card">
+                        <img
+                            class="card__img lazy"
+                            src="img/placeholde-smartertrading411.png"
+                            data-src="img/smartertrading411.png"
+                            data-srcset="img/smartertrading411.png 1x"
+                            alt="image background of the project one"
+                            loading="lazy"
+                        >
+                        <div class="card__overlay">
+                            <h3 class="card__overlay-title">SmarterTrading411</h3>
+                            <p class="card__overlay-description">Landing page of SmarterTrading411 created using
+                                WordPress</p>
+                            <a href="https://smartertrading411.com" class="card__overlay-link"
+                               aria-label="smartertrading411">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            class="card__img color lazy"
+                            src="img/placeholder-spfv.png"
+                            data-src="img/spfv.png"
+                            data-srcset="img/spfv.png 1x"
+                            alt="image background of the project one"
+                            loading="lazy"
+                        >
+                        <div class="card__overlay">
+                            <h3 class="card__overlay-title">Sp Fair Value</h3>
+                            <p class="card__overlay-description">Landing page of SPFairValue created using Yii2
+                                Framework</p>
+                            <a href="https://smartertrading411.com" class="card__overlay-link"
+                               aria-label="Sp Fair Value">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            class="card__img lazy"
+                            src="img/placeholder-wheelkitchen.png"
+                            data-src="img/wheelkitchen.png"
+                            data-srcset="img/wheelkitchen.png 1x"
+                            alt="image background of the project one"
+                            loading="lazy"
+                        >
+                        <div class="card__overlay">
+                            <h3 class="card__overlay-title">The Wheel Kitchen</h3>
+                            <p class="card__overlay-description">This landing page was created for The wheel kitchen but
+                                is currently deprecated</p>
+                            <a href="http://wheelkitchen.vicbox.tech" class="card__overlay-link"
+                               aria-label="The wheel kitchen">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            class="card__img lazy"
+                            src="img/placeholder-simplypaperweb.png"
+                            data-src="img/simplypaperweb.png"
+                            data-srcset="img/simplypaperweb.png 1x"
+                            alt="image background of the project one"
+                            loading="lazy"
+                        >
+                        <div class="card__overlay">
+                            <h3 class="card__overlay-title">SimplyPaper - Movil</h3>
+                            <p class="card__overlay-description">Simply Paper is an Android wallpaper app created using
+                                JAVA and Android Studio.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.dev.victor.spaper"
+                               class="card__overlay-link"
+                               aria-label="simply paper movil">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            class="card__img color lazy"
+                            src="img/placeholder-sidekick.png"
+                            data-src="img/sidekick.png"
+                            data-srcset="img/sidekick.png 1x"
+                            alt="image background of the project one"
+                            loading="lazy"
+                        >
+                        <div class="card__overlay">
+                            <h3 class="card__overlay-title">Ocho Sidekick - Movil</h3>
+                            <p class="card__overlay-description">Application for businesses affiliated with "OCHO" app.
+                                Created in Java and Android Studio.</p>
+                            <a href="https://play.google.com/store/apps/details?id=io.beanario.ocho_sidekick&hl=es&gl=US"
+                               class="card__overlay-link"
+                               aria-label="simply paper movil">
+                                <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+                <!--skills contents-->
+                <div class="tab_content skills grid" data-content id="skills">
+
+                    <div class="skill">
+                        <div class="skill__icon"><i class="ri-html5-fill"></i></div>
+                        <h3 class="skill__title">HTML5/CSS3</h3>
+                        <p class="skill__subtitle">Tailwinds, Bootstrap, vanilla css</p>
+                        <hr class="skill__divider">
+                        <div class="skill__description">
+                            <p>A full stack allaround designer that tristique est placerat in massa
+                                consectetur quisque lobortis vitae faucibus diam
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__icon"><i class="ri-reactjs-line"></i></div>
+                        <h3 class="skill__title">JavaScript</h3>
+                        <p class="skill__subtitle">Vanilla, React Js, Node.js</p>
+                        <hr class="skill__divider">
+                        <div class="skill__description">
+                            <p>A full stack allaround designer that tristique est placerat in massa
+                                consectetur quisque lobortis vitae faucibus diam
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__icon"><i class="ri-code-box-fill"></i></div>
+                        <h3 class="skill__title">PHP</h3>
+                        <p class="skill__subtitle">Yii2, Laravel</p>
+                        <hr class="skill__divider">
+                        <div class="skill__description">
+                            <p>A full stack allaround designer that tristique est placerat in massa
+                                consectetur quisque lobortis vitae faucibus diam
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+</main>
+
+<footer class="footer container">
+    <span class="footer__text">
+        VicBox. 2022 - All rigths reserved
+    </span>
+</footer>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/main.js"></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

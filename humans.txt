@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Victor Alvarado> -- <Software Engineer> -- <vicbox_>
+
+# THANKS
+
+    <Victor Alvarado>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript, ScrollReveal.js, Remix icon
+    Apache Server Configs, Normalize.css, HTML5 Boilerplate
