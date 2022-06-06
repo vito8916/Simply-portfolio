@@ -67,16 +67,24 @@ themeButton.addEventListener('click', () => {
 
 /*=============== TABS ===============*/
 const tabs = document.querySelectorAll('.tab__button'),
-    tabContent = document.querySelectorAll('.tab_content')
+    tabsContent = document.querySelectorAll('.tab_content')
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () =>{
-        tabContent.forEach(tc =>{
-            tc.classList.toggle('active')
-        })
+
+        let tabContent = document.querySelector(tab.dataset.target)
+
+        //unset and set tab-active class
         tabs.forEach(t =>{
-            t.classList.toggle('tab-active')
+            t.classList.remove('tab-active')
         })
+        tab.classList.add('tab-active')
+
+        //Remove and add the "active" class to the tab-content container to display the indicated content
+        tabsContent.forEach(t =>{
+            t.classList.remove('active')
+        })
+        tabContent.classList.add('active')
     })
 })
 
