@@ -1,0 +1,29 @@
+{
+  "name": "simply-portfolio",
+  "version": "1.0.0",
+  "description": "A simple version of a personal portfolio inspired by the profile view of Instagram or TikTok. This simple design allows us to display our projects and skills in a simple and effective way",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vito8916/simply-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "resume",
+    "vicbox",
+    "victor",
+    "alvarado"
+  ],
+  "author": "Victor Alvarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vito8916/simply-portfolio/issues"
+  },
+  "homepage": "https://github.com/vito8916/simply-portfolio#readme"
+}
