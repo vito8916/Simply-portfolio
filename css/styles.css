@@ -48,19 +48,6 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 /*=============== DARK THEME ===============*/
 body.dark-theme {
     --text-title-color: #f1f2f4;
