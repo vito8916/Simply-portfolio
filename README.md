@@ -101,8 +101,8 @@ Icon with your own. I personally use: https://realfavicongenerator.net/ to gener
 - [Remix icons](https://remixicon.com/)
 
 ## Related projects
-* [Apache](https://github.com/h5bp/server-configs-apache)
-* [Google App Engine (GAE)](https://github.com/h5bp/server-configs-gae)
+* [Weather vanilla js app using location](https://github.com/vito8916/simple-weather-js-app)
+* [Simply movies React app)](https://github.com/vito8916/simply-movies)
 
 ## License
 
